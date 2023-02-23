@@ -1,0 +1,49 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/*Barra de navegación*/
+.menu {
+    padding: 16px;
+    background-color: black;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.logo img {
+    width: 90px;
+    height: 90px;
+}
+/*Tipos de coloracion*/
+.tiposdecoloracion {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.tipos {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px ;
+}
+.targetita {
+    background-color: brown;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-size: cover;
+}
+.targetas--semi{
+background-image: url(../imgcolor/semi-permanente.jpg);
+}
+.targetas--demi {
+background-image: url(../imgcolor/semi-permanente.jpg);
+}
+.targetas--perm {
+background-image: url(../imgcolor/semi-permanente.jpg);
+}
