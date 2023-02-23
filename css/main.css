@@ -37,13 +37,50 @@
     justify-content: center;
     align-items: end;
     background-size: cover;
-}
-.targetas--semi{
+}/*Targetas de coloracion*/
+
+.targetas--retoque{
 background-image: url(../imgcolor/semi-permanente.jpg);
 }
-.targetas--demi {
+.targetas--cambio{
 background-image: url(../imgcolor/semi-permanente.jpg);
 }
-.targetas--perm {
+.targetas--bloque {
 background-image: url(../imgcolor/semi-permanente.jpg);
+}
+.targetas--mecha {
+    background-image: url(../imgcolor/semi-permanente.jpg);
+}
+.targetas--bala {
+    background-image: url(../imgcolor/semi-permanente.jpg);
+}
+.targetas--reflejo {
+    background-image: url(../imgcolor/semi-permanente.jpg);
+}
+/*Tarjetas de cortes*/
+.targetas--dama {
+    background-image: url(../imgcolor/semi-permanente.jpg);
+}
+.targetas--unisex {
+    background-image: url(../imgcolor/semi-permanente.jpg)
+}
+.targetas--varon {
+    background-image: url(../imgcolor/semi-permanente.jpg);
+}
+/*Tarjetas de tratamiento*/
+.targetas--hidratacion {
+    background-image: url(../imgcolor/semi-permanente.jpg);
+}
+.targetas--botox {
+    background-image: url(../imgcolor/semi-permanente.jpg);
+}
+.targetas--estimulante {
+    background-image: url(../imgcolor/semi-permanente.jpg);
+}
+/*Tarjetas de servicios permanentes*/
+.targetas--ondulacion {
+    background-image:url(../imgcolor/semi-permanente.jpg) ;
+}
+.targetas--alizado {
+    background-image:url(../imgcolor/semi-permanente.jpg) ;
 }
