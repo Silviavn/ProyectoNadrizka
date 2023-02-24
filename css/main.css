@@ -84,3 +84,10 @@ background-image: url(../imgcolor/semi-permanente.jpg);
 .targetas--alizado {
     background-image:url(../imgcolor/semi-permanente.jpg) ;
 }
+/*Frases*/
+.frase1 {
+    font-family: 'Amatic SC', cursive;
+}
+.frase2 {
+    font-family: 'Amatic SC', cursive;
+}
