@@ -2,9 +2,10 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    background-color: #FFFFFF;
 }
 /*Barra de navegación*/
-.menu {
+.barra {
     padding: 16px;
     background-color: black;
     list-style-type: none;
@@ -16,8 +17,8 @@
     color: aliceblue;
 }
 .logo img {
-    width: 90px;
-    height: 90px;
+    width: 110px;
+    height: 110px;
 }
 /*Tipos de coloracion*/
 .tiposdecoloracion {
@@ -40,54 +41,87 @@
 }/*Targetas de coloracion*/
 
 .targetas--retoque{
-background-image: url(../imgcolor/semi-permanente.jpg);
+background-image: url(../imgcolor/retoque.png);
 }
 .targetas--cambio{
-background-image: url(../imgcolor/semi-permanente.jpg);
+background-image: url(../imgcolor/cambio.jpg);
 }
 .targetas--bloque {
-background-image: url(../imgcolor/semi-permanente.jpg);
+background-image: url(../imgcolor/bloque.png);
 }
 .targetas--mecha {
-    background-image: url(../imgcolor/semi-permanente.jpg);
+    background-image: url(../imgcolor/mecha.png);
 }
 .targetas--bala {
-    background-image: url(../imgcolor/semi-permanente.jpg);
+    background-image: url(../imgcolor/bala.jpg);
 }
 .targetas--reflejo {
-    background-image: url(../imgcolor/semi-permanente.jpg);
+    background-image: url(../imgcolor/reflejo.jpg);
 }
 /*Tarjetas de cortes*/
 .targetas--dama {
-    background-image: url(../imgcolor/semi-permanente.jpg);
+    background-image: url(../imgcolor/cortemujer.jpg);
 }
 .targetas--unisex {
-    background-image: url(../imgcolor/semi-permanente.jpg)
+    background-image: url(../imgcolor/unisex.jpg)
 }
 .targetas--varon {
-    background-image: url(../imgcolor/semi-permanente.jpg);
+    background-image: url(../imgcolor/corte\ hom.jpg);
 }
 /*Tarjetas de tratamiento*/
 .targetas--hidratacion {
-    background-image: url(../imgcolor/semi-permanente.jpg);
+    background-image: url(../imgcolor/hidratacion.jpg);
 }
 .targetas--botox {
-    background-image: url(../imgcolor/semi-permanente.jpg);
+    background-image: url(../imgcolor/botox.png);
 }
 .targetas--estimulante {
-    background-image: url(../imgcolor/semi-permanente.jpg);
+    background-image: url(../imgcolor/estimulante.jpg);
 }
 /*Tarjetas de servicios permanentes*/
 .targetas--ondulacion {
-    background-image:url(../imgcolor/semi-permanente.jpg) ;
+    background-image:url(../imgcolor/permru.png) ;
 }
 .targetas--alizado {
-    background-image:url(../imgcolor/semi-permanente.jpg) ;
+    background-image:url(../imgcolor/alispe.png) ;
 }
-/*Frases*/
+/*Frases a solo estas dos les puse el link en head*/
 .frase1 {
     font-family: 'Amatic SC', cursive;
 }
 .frase2 {
     font-family: 'Amatic SC', cursive;
 }
+h1 {
+    font-family: 'Amatic SC', cursive;
+}
+/* Animacion de los titulos*/
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.5s both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.5s both;
+}
+
+ @-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
