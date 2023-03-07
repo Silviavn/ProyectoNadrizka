@@ -1,0 +1,11 @@
+/*Barra de navegación*/
+.barra {
+    background-image: url(../imgcolor/fondo6.png.jpg);
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-size: 20px;
+    width: 100%
+}
