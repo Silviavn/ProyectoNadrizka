@@ -1,25 +1,32 @@
+html {
+  height: 100%;
+}
 * {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    background-color: #FFFFFF;
+    font-family: 'Amatic SC', cursive;
+
 }
 /*Barra de navegación*/
 .barra {
     padding: 16px;
-    background-color: black;
+    background-image: url(../imgcolor/fondo6.png.jpg);
     list-style-type: none;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 60px;
     font-size: 20px;
-    color: aliceblue;
+   
+  
 }
+
 .logo img {
-    width: 110px;
-    height: 110px;
+    width: 120px;
+    height: 120px;
 }
+
 /*Tipos de coloracion*/
 .tiposdecoloracion {
     padding-left: 60px;
@@ -85,17 +92,9 @@ background-image: url(../imgcolor/bloque.png);
 .targetas--alizado {
     background-image:url(../imgcolor/alispe.png) ;
 }
-/*Frases a solo estas dos les puse el link en head*/
-.frase1 {
-    font-family: 'Amatic SC', cursive;
-}
-.frase2 {
-    font-family: 'Amatic SC', cursive;
-}
 h1 {
     font-family: 'Amatic SC', cursive;
 }
-/* Animacion de los titulos*/
 .tracking-in-expand {
 	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.5s both;
 	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.5s both;
@@ -125,3 +124,107 @@ h1 {
       opacity: 1;
     }
   }
+  .tih3 {
+    color: aliceblue;
+  } 
+  /*Animación de los titulos cards*/
+  .tracking-in-contract {
+	-webkit-animation: tracking-in-contract 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+ @-webkit-keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  /*Animación de frase, area de trenzado*/
+  .puff-in-ver {
+	-webkit-animation: puff-in-ver 1.2s cubic-bezier(0.470, 0.000, 0.745, 0.715) backwards;
+	        animation: puff-in-ver 1.2s cubic-bezier(0.470, 0.000, 0.745, 0.715) backwards;
+}
+ @-webkit-keyframes puff-in-ver {
+    0% {
+      -webkit-transform: scaleY(2);
+              transform: scaleY(2);
+      -webkit-filter: blur(4px);
+              filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes puff-in-ver {
+    0% {
+      -webkit-transform: scaleY(2);
+              transform: scaleY(2);
+      -webkit-filter: blur(4px);
+              filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  /*Footer*/
+  .a {
+    text-decoration: none;
+  }
+  .footer {
+    background: #272727 ;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    margin: auto;
+  }
+  footer li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+  }
+  .footer-icons a{
+    background: #ab9202;
+    color: #e96c19;
+    padding: 15px;
+    border-radius: 100px;
+    display: flex;
+    font-size:25px;
+  }
+ .footer-icons a:hover{
+  color: #b83535;
+ }
+ .footer-menu a{
+  color: #b6228f;
+ }
+ .footer-menu a:hover {
+  color: #ab9202;
+ }
