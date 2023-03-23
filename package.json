@@ -1,0 +1,29 @@
+{
+  "name": "proyecto-nuevo-pame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite", 
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Silviavn/ProyectoNadrizka.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Silviavn/ProyectoNadrizka/issues"
+  },
+  "homepage": "https://github.com/Silviavn/ProyectoNadrizka#readme",
+  "devDependencies": {
+    "sass": "^1.59.3",
+    "vite": "^4.2.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3"
+  }
+}

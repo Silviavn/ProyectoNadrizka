@@ -203,6 +203,7 @@ h1 {
     text-transform: uppercase;
     padding-top: 30px;
     margin: auto;
+    background-image: image();
   }
   footer li {
     list-style: none;
