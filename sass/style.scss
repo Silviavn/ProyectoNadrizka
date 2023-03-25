@@ -309,3 +309,14 @@
     opacity: 1;
   }
 }
+
+.footer {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  font-size: 20px;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
