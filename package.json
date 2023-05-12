@@ -2,6 +2,7 @@
   "name": "proyecto-nuevo-pame",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://silviavn.github.io/ProyectoNadrizka/",
   "main": "index.js",
   "scripts": {
     "dev": "vite", 
