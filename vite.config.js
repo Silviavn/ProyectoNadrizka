@@ -1,6 +1,7 @@
 const path = require('path')
 export default {
   root: path.resolve(__dirname),
+  base: 'https://silviavn.github.io/ProyectoNadrizka',
   publicDir: "docs",
   build: {
     rollupOptions: {
